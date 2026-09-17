@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">淡墨茶山与茶树</title><desc id="desc">原创的淡墨山水与茶树线稿背景</desc>
+  <defs>
+    <linearGradient id="fade" x1="0" x2="1"><stop stop-color="#F5F0E6" stop-opacity="0"/><stop offset=".28" stop-color="#F5F0E6" stop-opacity=".16"/><stop offset="1" stop-color="#F5F0E6" stop-opacity=".02"/></linearGradient>
+    <linearGradient id="mountain" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#71806B" stop-opacity=".08"/><stop offset="1" stop-color="#29483A" stop-opacity=".2"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+  <path d="M220 610C380 495 438 302 570 386c84 53 112 122 202 45 81-69 124-195 262-183 67 6 116 67 166 112v400H210z" fill="url(#mountain)"/>
+  <path d="M280 617c132-89 199-205 292-199 91 6 133 126 219 68 84-56 143-176 267-172" fill="none" stroke="#29483A" stroke-opacity=".22" stroke-width="3"/>
+  <path d="M478 640c124-73 209-92 318-58 109 35 211 29 351-68" fill="none" stroke="#8A6348" stroke-opacity=".15" stroke-width="2"/>
+  <g fill="none" stroke="#29483A" stroke-linecap="round">
+    <path d="M923 652c-11-113-5-239 55-383 22-52 41-103 49-170" stroke-width="8" stroke-opacity=".48"/>
+    <path d="M971 293c-55-49-106-64-158-65M950 348c48-56 94-77 143-85M936 420c-59-45-108-54-153-46M925 505c46-43 92-57 145-54" stroke-width="4" stroke-opacity=".42"/>
+  </g>
+  <g fill="#71806B" fill-opacity=".55">
+    <path d="M800 225c40-28 78-24 115 8-45 24-82 20-115-8z"/><path d="M1071 254c-34-22-67-17-98 18 40 17 73 11 98-18z"/>
+    <path d="M773 369c45-25 84-15 117 20-48 18-86 11-117-20z"/><path d="M1068 442c-34-24-69-17-104 19 42 18 76 11 104-19z"/>
+    <path d="M817 548c35-22 69-16 101 16-40 17-73 12-101-16z"/>
+  </g>
+  <circle cx="865" cy="170" r="95" fill="#C9A66B" fill-opacity=".08" filter="url(#soft)"/>
+  <rect width="1200" height="760" fill="url(#fade)"/>
+</svg>
